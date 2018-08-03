@@ -1,0 +1,145 @@
+body{
+   background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+    text-align: center;
+    height: 100px;
+    font-weight: bolder;
+    font-family: 'Ultra', serif;
+  
+    color: crimson;
+}
+.row{
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    }
+p{
+    text-align: center;
+   padding-top: 10px;
+  
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Merienda', cursive;
+
+}
+
+button{
+  margin-bottom: 50px;
+    padding: 40px;  
+}
+#login{
+    width: 120px !important;
+}
+#register{
+    width: 120px !important;
+}
+
+
+
+
+
+.box{
+    height: 300px;
+    background-color: gray;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+header{
+    height: 200px;
+    font-size: 500%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.card-a{
+    background-image: url(https://as1.ftcdn.net/jpg/00/92/48/62/500_F_92486202_Il3DoOWWCCtOHc6IUvBW6KIVkzVmPexX.jpg);
+    height: 100%;
+    width:230px;
+    display: inline-block;
+}
+.card-b{
+     display: inline-block;
+    background-image: url(https://as2.ftcdn.net/jpg/00/83/40/77/500_F_83407707_t06M5pdwS1XQ7TaE7PgsZXkbrIpHRucB.jpg);
+    height: 100%;
+    width: 230px;
+}
+.card-c{
+     display: inline-block;
+   background-image: url(https://as2.ftcdn.net/jpg/00/70/20/57/500_F_70205741_0o5jbaU3Oiq6f9iqXIwHEDhf1cfDMh2D.jpg);
+    height: 100%;
+    width: 230px;
+}
+
+.pic{
+    padding-right: 600px;
+}
+
+
+
+
+img{
+    height: 100px;
+    width: 100px;
+   margin-right: 600px;
+    
+}
+
+button{
+   margin-top: 40px;
+    width: 250px;
+}
+
+.input-group{
+    padding-left: 150px;
+}
+
+label{
+    position: relative;
+    padding-right: 1000px;
+  top: 35px;
+    left: 10px;
+    font-size: 20px;
+}
+
+#sub{
+    margin-right: 600px;
+}
+
+#log{
+    margin-right: 1000px;
+}
+
+
+
+.prize h1{
+    z-index: 1000;
+    position: absolute;
+    left: 600px;
+    bottom: 518px;
+    height: 20px;
+     font-family: 'Ruslan Display', cursive;
+    font-size: 20px;
+    color: crimson;
+}
+
+.footer{
+    align-content: center;
+    padding-left: 600px;
+}
+
+.pass{
+    padding-right: 600px;
+}
+
+.pop{
+    background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
