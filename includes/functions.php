@@ -44,12 +44,13 @@ function login_categories() {
     $result = mysqli_query($connection, $query);
     
     if(mysqli_num_rows($result)>0){
-         header("Location:luck.php");
-        echo "Hello";
+
+            echo "<script>alert('You are logged in')</script>";
     }
-    else{
-        die('Query FAILED' . mysqli_error($connection));
-    }
+    else {
+              echo "<script>alert('Enter right credentials')</script>";
+        }
+    
 }
 }
 
@@ -61,8 +62,6 @@ function login_categories() {
 
 
 
-
-Warning: Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\project\luck.php:103) in D:\xampp\htdocs\project\includes\functions.php on line 58
 
 
 

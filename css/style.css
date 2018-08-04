@@ -7,9 +7,9 @@ background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, F
 
 h1{
     text-align: center;
-    height: 100px;
+    font-size: 50px;
     font-weight: bolder;
-    font-family: 'Ultra', serif;
+    font-family: 'Concert One', cursive;
   
     color: crimson;
 }
@@ -117,25 +117,16 @@ label{
 
 
 
-.prize h1{
+
+
+#pass{
     z-index: 1000;
-    position: absolute;
-    left: 600px;
-    bottom: 518px;
-    height: 20px;
-     font-family: 'Ruslan Display', cursive;
-    font-size: 20px;
-    color: crimson;
+ position: absolute;
+    left: 300px;
+    top: 50px;
 }
 
-.footer{
-    align-content: center;
-    padding-left: 600px;
-}
 
-.pass{
-    padding-right: 600px;
-}
 
 .pop{
     background: #7F7FD5;  /* fallback for old browsers */
@@ -143,3 +134,11 @@ background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Ch
 background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+
+#box
+{
+      box-shadow: 10px 8px 8px #e74c3c !important;
+}
+
+
