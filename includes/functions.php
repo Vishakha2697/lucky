@@ -1,5 +1,5 @@
+<?php include"db.php"   ?>
 <?php
-
 
 function insert_categories() {
 
@@ -13,13 +13,6 @@ if(isset($_POST['register'])){
     $contact = $_POST['contact'];
     $password = $_POST['password'];
     
-    $connection = mysqli_connect('localhost','root','','luckydraw');
-    
-    if($connection){
-        echo "we are connected";
-    }else{
-        echo "we are not connected";
-    }
     
      $query = "INSERT INTO user(name,email,contact,password) VALUES ('$name', '$email', $contact , '$password')";
     
@@ -42,13 +35,9 @@ function login_categories() {
    
     $password = $_POST['password'];
     
-    $connection = mysqli_connect('localhost','root','','luckydraw');
+  
     
-    if($connection){
-        echo "we are connected";
-    }else{
-        die("database connection failed");
-    }
+  
     
     $query = "SELECT * FROM user WHERE email='$email' AND password='$password'";
     
