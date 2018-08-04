@@ -9,9 +9,9 @@ h1{
     text-align: center;
     font-size: 50px;
     font-weight: bolder;
-    font-family: 'Concert One', cursive;
-  
-    color: crimson;
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 2px 2px #f5af19;
+    color: #c31342;
 }
 .row{
     text-align: center;
@@ -21,7 +21,7 @@ h1{
 p{
     text-align: center;
    padding-top: 10px;
-  
+  color: darkorange;
     font-size: 30px;
     font-weight: bolder;
     font-family: 'Merienda', cursive;
@@ -126,19 +126,19 @@ label{
     top: 50px;
 }
 
-
-
-.pop{
-    background: #7F7FD5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
-
 #box
 {
       box-shadow: 10px 8px 8px #e74c3c !important;
+}
+
+#box1
+{
+      box-shadow: 10px 8px 8px #cc2b5e !important;
+}
+
+#box2
+{
+      box-shadow: 10px 8px 8px #F9D423 !important;
 }
 
 

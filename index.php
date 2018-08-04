@@ -14,6 +14,8 @@
 	 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 	 <link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Concert+One|Lobster|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 	 <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 	
@@ -50,7 +52,7 @@
      <div class="row">
       <div class="col-md-12">
            <button data-toggle="modal" data-target="#urModal" class="btn btn-info btn-lg"> Login</button>
-           <button data-toggle="modal" data-target="#myModal" class="btn btn-warning btn-lg">Register</button>
+           <button data-toggle="modal" data-target="#myModal" class="btn btn-success btn-lg">Register</button>
       </div>
       </div>
 	
@@ -65,7 +67,7 @@
     <div class="modal-content" id="box">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h2 class="modal-title" id="myModalLabel" style="padding-left:100px;"><i class="fa fa-user-plus"></i>Register</h2>
+        <h2 class="modal-title" id="myModalLabel" style="margin-left:250px;font-family: 'Courgette', cursive;"><i class="fa fa-user-plus"></i>Register</h2>
       </div>
       <div class="modal-body" >
            
@@ -144,10 +146,10 @@
 <!-- Modal for login-->
 <div class="modal fade" id="urModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
-    <div class="modal-content">
+    <div class="modal-content" id="box1">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h2 class="modal-title" id="myModalLabel"><i class="fa fa-user"></i>Login to Continue</h2>
+        <h2 class="modal-title" id="myModalLabel" style="margin-left:150px;font-family: 'Courgette', cursive;"><i class="fa fa-user"></i>Login to Continue</h2>
       </div>
       <div class="modal-body">
        
@@ -206,19 +208,78 @@
                    
               </div>
               <div class="col-md-3">
-                   
+                 <span><i class="fa fa-palette fa-3x"></i></span>  
               </div>
-<!--
+
               <div class="col-md-3">
                     <span><i class="fa fa-music fa-3x" style="padding-top:40px;"></i></span>
                </div>
                 <div class="col-md-3">
                    <span><i class="	fa fa-camera-retro fa-3x" style="padding-top:40px;"></i></span>
                </div>
--->
+
                
-        
-        
+        <!-- Modal for contact-->
+        <div class="contact">
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newModal">
+  Contact
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="newModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" id="box2">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="myModalLabel">Contact Us</h2>
+      </div>
+      <div class="modal-body">
+      <div class="container">
+	<center>
+	
+	<?php contact_categories(); ?>
+	
+	
+	<form action="index.php" method="post">
+       <div class="form-group">
+    <label for="name">Name</label>
+    <div class="input-group">
+    <div class="input-group-addon">
+     <span class="glyphicon glyphicon-user"></span>
+     </div>
+      <input type="text" name="name" class="form-control"  style="width:300px;" placeholder="Enter your Name">
+    </div>
+    </div>
+    <div class="form-group">
+    <label for="name">Email</label>
+    <div class="input-group">
+    <div class="input-group-addon">
+      <span class="glyphicon glyphicon-envelope"></span>
+      </div>
+      <input type="email"  name="email" class="form-control"  placeholder="Email" style="width:300px;">
+    </div>
+  </div>
+    <div class="form-group">
+        <label for="name">Message</label>
+        <div class="input-group">
+         <div class="input-group-addon">
+      <span><i class="fa fa-comment"></i></span>
+      </div>   
+            <textarea class="form-control" name="message" style="width:300px;" rows="4"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+ <button type="submit" name="submit" id="sub" class="btn btn-warning btn-lg">Submit</button>
+        </div>
+     </form>
+     </center>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
         
   
         </div>
