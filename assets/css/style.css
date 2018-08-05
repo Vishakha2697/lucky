@@ -28,33 +28,14 @@ p{
 
 }
 
-button{
-  margin-bottom: 50px;
-    padding: 40px;  
-}
-#login{
-    width: 120px !important;
-}
-#register{
-    width: 120px !important;
-}
-
-
-
-
-
-.box{
+ /* For prize images  Line 6 */
+.box
+{
     height: 300px;
     background-color: gray;
     overflow-x: hidden;
     overflow-y: hidden;
     white-space: nowrap;
-}
-header{
-    height: 200px;
-    font-size: 500%;
-    text-align: center;
-    padding-top: 40px;
 }
 
 .card-a{
@@ -76,11 +57,35 @@ header{
     width: 230px;
 }
 
+/* End of prize image*/
+
+
+
+button{
+  margin-bottom: 50px;
+    padding: 40px;  
+}
+#login{
+    width: 120px !important;
+}
+#register{
+    width: 120px !important;
+}
+
+header{
+    height: 200px;
+    font-size: 500%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* profile pic registration  Line 45*/
+
 .pic{
     padding-right: 600px;
 }
 
-
+/* End of profile pic in registration */
 
 
 img{
@@ -106,19 +111,22 @@ label{
     left: 10px;
     font-size: 20px;
 }
-
+/* contact button Line 235*/
 #sub{
     margin-right: 600px;
 }
+/* End of contact button*/
 
+
+/* login button Line 150 */
 #log{
     margin-right: 1000px;
 }
+/* End of login button*/
 
 
 
-
-
+/* Forgot your password Line 142*/
 #pass{
     z-index: 1000;
  position: absolute;
@@ -126,19 +134,29 @@ label{
     top: 50px;
 }
 
+/* End of forgot your password*/
+
+/* modal for register Line 29  */
+
 #box
 {
       box-shadow: 10px 8px 8px #e74c3c !important;
 }
+/* End of modal for register*/
 
+/* modal content for login Line 112*/
 #box1
 {
       box-shadow: 10px 8px 8px #cc2b5e !important;
 }
 
+/* ENd of modal content for login*/
+
+/* modal content for contact line 195*/
 #box2
 {
       box-shadow: 10px 8px 8px #F9D423 !important;
 }
 
+/* End modal content for contact*/
 

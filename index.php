@@ -1,67 +1,28 @@
-<?php include "includes/functions.php" ?>
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
-	 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-	 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-	 <link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Concert+One|Lobster|Pacifico" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-	 <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-	
-	<title>LuckyDrawLive</title>
-
-	<!--  -->
-
-	<style>
-
-	</style>
-
-</head>
-
-<body>
-
-	<div class="container">
+<?php include 'includes/header.php'?>
+<div class="container">
 
 	<h1>LUCKY DRAW</h1>
 	
-
-	
-
 	<div class="box">
 	    <div class="card-a"></div>
 	    <div class="card-b"></div>
 	    <div class="card-c"></div>
 	    <div class="card-a"></div>
 	    <div class="card-b"></div>
-	    
-	
-
    </div>
+   
     <p>View all Winners</p>
      <div class="row">
-      <div class="col-md-12">
+        <div class="col-md-12">
            <button data-toggle="modal" data-target="#urModal" class="btn btn-info btn-lg"> Login</button>
            <button data-toggle="modal" data-target="#myModal" class="btn btn-success btn-lg">Register</button>
-      </div>
+        </div>
       </div>
 	
    
    
 	<div class="pop">
 	  
-
 <!-- Modal for register -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
   <div class="modal-dialog" role="document">
@@ -78,7 +39,7 @@
    
   
    
-    <form action="register.php" method="post" class="form-horizontal">
+    <form action="includes/register.php" method="post" class="form-horizontal">
        
         <img src="https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1510993548000/photosp/f6b767e9-edec-4f31-9fb9-9de97e4a4c74/stock-photo-colorful-person-grain-gradient-icon-user-user-icon-f6b767e9-edec-4f31-9fb9-9de97e4a4c74.jpg" alt="" class="img-circle">
         <p class="pic">Profile Photo</p>
@@ -290,15 +251,3 @@
 	   </div>
     
 	
-
-
-
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-	
-
-</body>
-
-</html>
